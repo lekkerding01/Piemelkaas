@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lingo Spel</title>
+    <title>Tetris</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-    
 <body>
     <div class="container">
-        <h1>Lingo Spel</h1>
-        <p>Raad het woord!</p>
-        <div id="game-board"></div>
-        <input type="text" id="guess-input" maxlength="5" placeholder="Typ een woord" />
-        <button id="submit-button">Probeer</button>
-        <p id="feedback"></p>
+        <h1>Tetris</h1>
+        <div id="game-container">
+            <div id="grid"></div>
+        </div>
+        <p id="score-display">Score: 0</p>
+        <button id="start-button">Start Spel</button>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
-

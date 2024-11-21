@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-7DJ781P0EM"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-7DJ781P0EM");
+        </script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="title"
+            content="Lingospelen.nl | Gratis Online Lingo Spelen!"
+        />
+        <meta
+            name="description"
+            content="Speel gratis Lingo, het leukste taalspel van Nederland, op Lingospelen.nl. Altijd al gratis Lingo willen spelen? Ontdek het hier!"
+        />
+        <meta
+            name="keywords"
+            content="lingo, lingospelen, gratis lingo, lingo spel, woordenspel, taalspel, lingo online, Nederland, Wordle, JP, Jan pieter ellemans, Lucille Werner, Jan versteegh, Lucille Lingo"
+        />
+        <meta name="robots" content="index, follow" />
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Lingospelen.nl",
+                "url": "https://www.lingospelen.nl",
+                "logo": "https://www.lingospelen.nl/assets/img/favicon.ico",
+                "description": "Speel gratis online Lingo, het leukste taalspel van Nederland"
+            }
+        </script>
+
+        <link
+            rel="shortcut icon"
+            href="/assets/img/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>
+            Lingospelen.nl | Speel Het Leukste Gratis Taalspelletje Van
+            Nederland
+        </title>
+      <script type="module" crossorigin src="/assets/index-0eca69d5.js"></script>
+      <link rel="stylesheet" href="/assets/index-95722229.css">
+    </head>
+    <body>
+        <noscript>
+            Je moet JavaScript ingeschakeld hebben om deze applicatie te kunnen
+            gebruiken.
+        </noscript>
+        <div id="root"></div>
+
+        
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8e6173c1a95906c6',t:'MTczMjIwMDIwNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

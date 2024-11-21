@@ -1,5 +1,5 @@
 // Lijst met mogelijke woorden
-const words = ["appel", "banen", "cactus", "dweil", "engel", "fiets", "gazen", "hotel", "ijsje", "jurk"];
+const words = ["banen", "cactus", "dweil", "engel", "fiets", "gazen", "hotel", "ijsje", "jurk"];
 let targetWord = ""; // Hier slaan we het gekozen woord op
 let attempts = [];
 

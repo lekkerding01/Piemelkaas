@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const grid = document.getElementById("grid");
     const scoreDisplay = document.getElementById("score-display");
     const startButton = document.getElementById("start-button");
-    
 
     const width = 10; // Number of cells in a row
     const height = 20; // Number of rows in the grid

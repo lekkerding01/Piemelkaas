@@ -1,5 +1,22 @@
-const targetWord = "appel"; // Het te raden woord
+// Lijst met mogelijke woorden
+const words = ["appel", "banen", "cactus", "dweil", "engel", "fiets", "gazen", "hotel", "ijsje", "jurk"];
+let targetWord = ""; // Hier slaan we het gekozen woord op
 let attempts = [];
+
+// Kies een willekeurig woord bij het laden van de pagina
+function selectRandomWord() {
+    const randomIndex = Math.floor(Math.random() * words.length);
+    targetWord = words[randomIndex];
+}
+
+// Functie om te starten
+function initializeGame() {
+    attempts = [];
+    document.getElementById("game-board").innerHTML = "";
+    document.getElementById("feedback").textContent = "";
+    selectRandomWord();
+    console.log(`Hint: Het doelwoord is ${targetWord}`); // Alleen voor debuggen
+}
 
 document.getElementById("submit-button").addEventListener("click", handleGuess);
 
@@ -48,3 +65,6 @@ function updateBoard(guess) {
         board.appendChild(row);
     });
 }
+
+// Start het spel bij het laden van de pagina
+initializeGame();
